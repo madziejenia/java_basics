@@ -1,4 +1,5 @@
 package Test;
+//Write a program, which counts the number of even and odd numbers in an array.
 
 public class FirstTask {
     public static void main (String[] args)

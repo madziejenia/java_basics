@@ -1,4 +1,5 @@
 package Test;
+// Write a program that counts number of existing objects of a given type.
 
 public class ThirdTask {
     static int count = 0;

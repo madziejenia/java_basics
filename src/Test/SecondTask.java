@@ -1,4 +1,5 @@
 package Test;
+// Write a program, which duplicates each String element of the given array.
 
 public class SecondTask {
 
