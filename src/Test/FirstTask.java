@@ -3,11 +3,11 @@ package Test;
 public class FirstTask {
     public static void main (String[] args)
     {
-        int arr[] = {2, 3, 4, 5, 6};
-        int n = arr.length;
-        CountingEvenOdd(arr, n);
+        int num[] = {2, 3, 4, 5, 6};
+        int n = num.length;
+        CountingEvenOdd(num, n);
     }
-    static void CountingEvenOdd(int arr[], int arr_size)
+    static void CountingEvenOdd(int num[], int arr_size)
     {
         int even_count = 0;
         int odd_count = 0;
@@ -15,7 +15,7 @@ public class FirstTask {
         for(int i = 0 ; i < arr_size ; i++)                             // reads all the values in the array
         {
 
-            if ((arr[i] & 1) == 1)
+            if ((num[i] & 1) == 1)
                 odd_count ++ ;
             else
                 even_count ++ ;
