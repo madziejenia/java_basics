@@ -13,7 +13,7 @@ public class SecondTask {
             {
                 if ((animals[i] == animals [j]) && (i != j))
                 {
-                    System.out.println("Duplicate animal : " + animals[j]);
+                    System.out.println("Duplicated animal : " + animals[j]);
                 }
             }
         }
