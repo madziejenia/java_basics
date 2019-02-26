@@ -3,7 +3,7 @@ package Test;
 public class FirstTask {
     public static void main (String[] args)
     {
-        int num[] = {2, 3, 4, 5, 6};
+        int num[] = {15, 15, 34, 5, 7, 8};
         int n = num.length;
         CountingEvenOdd(num, n);
     }
