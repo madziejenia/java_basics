@@ -5,7 +5,6 @@ public class Vehicle {
 
     }
     String make;
-    String color;
     boolean engineState = false;
 
     void startEngine(){                                         // this method tests to see whether the engine is already running - engineState == true

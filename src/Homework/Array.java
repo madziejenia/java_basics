@@ -9,7 +9,7 @@ public class Array {
         int[] numbers = {1, 5, 3, 6, 23, 54, 3, 6, 7, 4, 4, 8, 9, 3};
 
         for (int i = 0; i < numbers.length; i++) {
-            if (numbers[i] % 3 == 0)
+            if (numbers[i] % 3 == 0 && numbers[i] > 3)
                 b++;
         }
         System.out.println("This is the amount of numbers divisible by 3: " + b);
